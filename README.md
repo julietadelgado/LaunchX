@@ -10,3 +10,4 @@ Contiene:
 * [Módulo 3](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%203%20-%20Usar%20l%C3%B3gica%20booleana) - Usar lógica booleana	
 * [Módulo 4](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%204%20-%20Cadenas) - Cadenas
 * [Módulo 5](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%205%20-%20Usar%20operaciones%20matem%C3%A1ticas) - Usar operaciones matemáticas
+* [Módulo 6](https://github.com/julietadelgado/LaunchX/blob/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%206%20-%20Introducci%C3%B3n%20a%20las%20listas/kata-modulo-6.ipynb) - Introducción a las listas
