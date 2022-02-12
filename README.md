@@ -11,4 +11,4 @@ Contiene:
 * [Módulo 4](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%204%20-%20Cadenas) - Cadenas
 * [Módulo 5](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%205%20-%20Usar%20operaciones%20matem%C3%A1ticas) - Usar operaciones matemáticas
 * [Módulo 6](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%206%20-%20Introducci%C3%B3n%20a%20las%20listas) - Introducción a las listas
-* * [Módulo 7](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%207%20-%20Estructuras%20de%20control) - Estructuras de control
+* [Módulo 7](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%207%20-%20Estructuras%20de%20control) - Estructuras de control
