@@ -14,4 +14,4 @@ Contiene:
 * [Módulo 7](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%207%20-%20Estructuras%20de%20control) - Estructuras de control
 * [Módulo 8](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%208%20-%20Administrar%20datos%20con%20diccionarios) - Estructuras de control
 * [Módulo 9](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%209%20-%20Funciones) - Funciones
-* [Módulo 10](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%2010%20-%20Manejo%20de%20errores) - Funciones
+* [Módulo 10](https://github.com/julietadelgado/LaunchX/tree/main/Curso%20Introducci%C3%B3n%20a%20Python/M%C3%B3dulo%2010%20-%20Manejo%20de%20errores) - Manejo de errores
