@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Make your cake</title>
+	<link rel="shortcut icon" type="image/png" href="/assets/img/favicon-makeyourcake-16x16px.png">
+	<link rel="apple-touch-icon" sizes="64x64" href="/assets/img/favicon-makeyourcake-64x64px.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/assets/css/site.css">
+</head>
+<body>
+	<header>
+		<div class="glazze"></div>
+		<div class="logo logo-mobile"><a href="/"><img src="/assets/img/make-your-cake-logo-2.svg" width="110" class="logo"></a></div>
+		<nav>
+			<ul>
+				<li><a href="/#our-cakes">Nuestros Pasteles</a></li>
+				<li class="logo"><a href="/"><img src="/assets/img/make-your-cake-logo-2.svg" width="200" class="logo"></a></li>
+				<li><a href="/crea-tu-pastel">Crea tu pastel</a></li>
+			</ul>
+		</nav>
+		<div class="right-icons">
+			<a href="/realizar-pedido" class="pay-order"><i class="fas fa-cash-register"></i></a>
+			<i class="fas fa-bars trigger-menu"></i>
+		</div>
+
+		<div class="responsive-menu">
+			<ul>
+				<li></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="container" id="personalise-your-cake">
+		<div class="row">
+			<div class="col-sm-12">
+				<form class="row">
+					<div class="col-sm-12">
+						<h1>Crea tu pastel: $300</h1><br><br>
+						<p class="tlt">Elige el/los sabores:</p><br>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="flavor_chocolate" autocomplete="off" name="flavor[]" value="Chocolate">
+						  <label class="btn btn-outline-primary" for="flavor_chocolate"><img src="/assets/img/products/pan-chocolate.jpg" class="img-fluid"><br>Chocolate<br><strong class="price">+$10</strong></label>
+						</div>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="flavor_fresa" autocomplete="off" name="flavor[]" value="Fresa">
+						  <label class="btn btn-outline-primary" for="flavor_fresa"><img src="/assets/img/products/pan-fresa.jpg" class="img-fluid"><br>Fresa<br><strong class="price">+$10</strong></label>
+						</div>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="flavor_zanahoria" autocomplete="off" name="flavor[]" value="Zanahoria">
+						  <label class="btn btn-outline-primary" for="flavor_zanahoria"><img src="/assets/img/products/pan-zanahoria.jpg" class="img-fluid"><br>Zanahoria<br><strong class="price">+$10</strong></label>
+						</div>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="flavor_frambuesa" autocomplete="off" name="flavor[]" value="Frambuesa">
+						  <label class="btn btn-outline-primary" for="flavor_frambuesa"><img src="/assets/img/products/pan-frambuesa.jpg" class="img-fluid"><br>Frambuesa<br><strong class="price">+$25</strong></label>
+						</div>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="flavor_cheesecake" autocomplete="off" name="flavor[]" value="Cheesecake">
+						  <label class="btn btn-outline-primary" for="flavor_cheesecake"><img src="/assets/img/products/pan-cheesecake.jpg" class="img-fluid"><br>Cheesecake<br><strong class="price">+$30</strong></label>
+						</div>
+					</div>
+
+					<div class="col-sm-12">
+						<br><p class="tlt">Elige los toppings:</p><br>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="topping_fresas" autocomplete="off" name="topping[]" value="Fresas">
+						  <label class="btn btn-outline-primary" for="topping_fresas"><img src="/assets/img/products/topping-fresas.jpg" class="img-fluid"><br>Fresas <strong>+$20 </strong></label>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="topping_duraznos" autocomplete="off" name="topping[]" value="Duraznos">
+						  <label class="btn btn-outline-primary" for="topping_duraznos"><img src="/assets/img/products/topping-duraznos.jpg" class="img-fluid"><br>Duraznos <strong>+$20 </strong></label>
+						</div>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="topping_nueces" autocomplete="off" name="topping[]" value="Nueces">
+						  <label class="btn btn-outline-primary" for="topping_nueces"><img src="/assets/img/products/topping-nueces.jpg" class="img-fluid"><br>Nueces <strong>+$40 </strong></label>
+						</div>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="topping_frutos_rojos" autocomplete="off" name="topping[]" value="Frutos Rojos">
+						  <label class="btn btn-outline-primary" for="topping_frutos_rojos"><img src="/assets/img/products/topping-frutos-rojos.jpg" class="img-fluid"><br>Frutos Rojos <strong>+$30 </strong></label>
+						</div>
+					</div>
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="topping_trufas" autocomplete="off" name="topping[]" value="Trufas">
+						  <label class="btn btn-outline-primary" for="topping_trufas"><img src="/assets/img/products/topping-trufas.jpg" class="img-fluid"><br>Trufas <strong>+$40 </strong></label>
+						</div>
+					</div>
+
+					<div class="col-sm-12">
+						<br><p class="tlt">Elige los adornos:</p><br>
+					</div>
+
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="ornaments_vela-pirotecnia" autocomplete="off" name="ornaments[]" value="Vela Pirotecnia">
+						  <label class="btn btn-outline-primary" for="ornaments_vela-pirotecnia"><img src="/assets/img/products/vela-de-pirotecnia.jpg" class="img-fluid"><br>Vela Pirotecnia <strong>+$40 </strong><span class="quantity"><br>Cantidad (max. 3): <input type="number" name="quantity_vela_pirotecnia" min="0" max="3" placeholder="2" class="form-control quantity-field"></span></label>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-6 product">
+						<div class="btn-group" role="group">
+						  <input type="checkbox" class="btn-check" id="ornaments_vela-numeros" autocomplete="off" name="ornaments[]" value="Velas de números">
+						  <label class="btn btn-outline-primary" for="ornaments_vela-numeros"><img src="/assets/img/products/vela-de-numero.jpg" class="img-fluid"><br>Velas de números <strong>+$25 </strong><span class="quantity"><br>Ingresa los números (p.e 20): <input type="number" name="quantity_vela_pirotecnia" min="0" max="3" placeholder="20" class="form-control quantity-field"></span></label>
+						</div>
+					</div>
+
+					<div class="col-sm-12">
+						<a href="/realizar-pedido" class="cake-button btn-small">Realizar pedido</a>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<br><br><h2>¿Te quedaste con antojo?</h2><br>
+			</div>
+			<div class="multiple-items">
+			    <div class="product">
+					<img src="/assets/img/products/pastel-de-chocolate.jpg" class="img-fluid">
+					<p class="status">Agotado</p>
+					<p class="name">Pastel de chocolate</p>
+					<p class="price">$300</p>
+				</div>
+				<div class="product">
+					<img src="/assets/img/products/pastel-de-zanahoria.jpg" class="img-fluid">
+					<p class="status">Agotado</p>
+					<p class="name">Pastel de zanahoria</p>
+					<p class="price">$280</p>
+				</div>
+				<div class="product">
+					<img src="/assets/img/products/cheesecake.jpg" class="img-fluid">
+					<p class="status">Agotado</p>
+					<p class="name">Cheesecake</p>
+					<p class="price">$330</p>
+				</div>
+				<div class="product">
+					<img src="/assets/img/products/gelatina-de-mango.jpg" class="img-fluid">
+					<p class="status">Agotado</p>
+					<p class="name">Gelatina individual de mango</p>
+					<p class="price">$30</p>
+				</div>
+				<div class="product">
+					<img src="/assets/img/products/gelatina-de-pitaya.jpg" class="img-fluid">
+					<p class="status">Agotado</p>
+					<p class="name">Gelatina de pitaya</p>
+					<p class="price">$250</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<ul>
+			<li>© 2022 Make a cake</li>
+			<li>Aviso de privacidad</li>
+			<li>Terminos y condiciones</li>
+		</ul>
+		<p class="text-center">Vasco de Quiroga 3200, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01219 Ciudad de México, CDMX<br>Horario de atención: 10 a.m - 9:00 p.m<br>Tel. 3333333333</p>
+	</footer>
+
+	<div class="simulation"><a href="/cmsmyc">Ver administrador</a></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="/assets/js/menu.js"></script>
+	<script type="text/javascript">
+		$('.multiple-items').slick({
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			arrows: true,
+			dots: false,
+			centerPadding: '60px',
+			autoplay: true,
+			autoplaySpeed: 2000,
+			responsive: [
+		    	{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+					}
+		    	}
+			]
+		});
+	</script>
+	
+</body>
+</html>

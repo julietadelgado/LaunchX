@@ -1,0 +1,118 @@
+body, html { padding: 0; margin: 0; font-family: 'Poppins', sans-serif; color: #102a43; font-weight: 300;}
+body { background-color: #fbf2ea; } 
+header ul { margin: 0px auto; display: table; }
+header ul li { list-style: none; text-align: center; }
+header, header .glazze { height: 130px;  position: fixed; width: 100%; top: 0px; z-index: 9; }
+header .glazze { background-image: url(../../assets/img/wave-cake.svg); background-size: contain; background-repeat: repeat-x; }
+header .logo { position: relative; top: 0px; padding: 0px; }
+header nav li { display: inline-block; color: white; padding: 0px 15px; }
+header nav li:not(.logo) { position: relative; top: -38px; font-weight: 400; }
+header nav a { color: white !important; text-decoration: none; position: relative; }
+header .logo.logo-mobile { display: none; z-index: 9; }
+header .right-icons { position: absolute; z-index: 9; top: 32px; right: 35px; color: white; font-size: 23px; }
+header .right-icons * { color: white; }
+header .right-icons a { margin: 0px 14px; }
+header .trigger-menu { display: none; }
+nav { position: relative; z-index: 9; }
+
+h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: 0.5rem; font-weight: 700; line-height: 1.2; color: #5f56a5; }
+strong { font-weight: 700; }
+form { margin: 0 auto; display: table; padding-top: 80px; }
+.tlt { font-weight: 700; font-size: 25px; color: #5f56a5; display: block; }
+
+.slide-cake .col-md-12 { padding: 0px; }
+img.full-image { width: 100%; }
+.slide-cake { margin-bottom: 80px; position: relative; background: #e7ebf6; }
+.slide-cake img { position: relative; top: 7px; }
+
+.slide-text { position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); left: 0px; padding-left: 100px; }
+.title-slide { font-weight: 800; font-size: 30px; }
+.title-slide span { display: block; font-size: 47px; }
+.slide-text .cake-button { margin-top: 50px; }
+
+.cake-button { text-decoration: none; display: table; font-weight: 800; color: white !important; font-size: 30px; background: #54428E; border: none; padding: 10px 34px 12px; cursor: pointer; }
+.cake-button:hover { background: #fcb13b; }
+
+input.quantity-field { width: 60px; display: inline-block; margin-left: 7px; }
+
+footer { background: #f68a8f; color: white; padding: 10px 40px; margin-top: 100px }
+footer ul { margin: 0px; padding: 0px; text-align: center; list-style: none; }
+footer ul li { display: inline-block; padding: 0px 20px; }
+footer p { margin-bottom: 0px; margin-left: auto; margin-right: auto; padding-top: 10px; }
+
+.simulation { border-top-left-radius: 5px; border-top-right-radius: 5px; background: #54428E; position: fixed; color: white; top: calc(50% - (195px / 2)); right: 0px; transform: translate(0%,-50%) rotate(-90deg); transform-origin: right bottom; width: 195px; text-align: center; }
+.simulation a { color: white; text-decoration: none; font-weight: 700; }
+
+.product { margin-bottom: 50px; position: relative; }
+.product p { margin-bottom: 0px; text-align: center; }
+.product p.status { position: absolute; background: #d00808; color: white; padding: 5px; top: 13px; right: 5px; }
+.product p.name { font-weight: 400; margin-top: 10px; }
+.product .price { font-weight: 700; color: #54428e; }
+.product .cake-button, .cake-button.btn-small { font-size: 18px; margin: 0 auto; display: table; margin-top: 15px; color: white; text-decoration: none; }
+.product .cake-button:hover, .cake-button.btn-small:hover { background: #7c62cf; }
+.product label { color: black }
+
+.slick-prev:before, .slick-next:before { color: #54428e !important; }
+.slick-slide img { width: 95%; margin-left: auto; margin-right: auto; }
+
+#personalise-your-cake { padding-top: 140px; }
+.btn-group label { border-color: #54428e; }
+.btn-outline-primary:hover { color: #fff; background-color: rgba(84, 66, 140, 0.5); border-color: rgba(84, 66, 140, 0.5); }
+.btn-outline-primary { box-shadow: none !important; }
+.btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active { background-color: #54428e; border-color: #54428e; color:  white !important; }
+.btn-check:active+.btn-outline-primary *, .btn-check:checked+.btn-outline-primary *, .btn-outline-primary.active *, .btn-outline-primary.dropdown-toggle.show *, .btn-outline-primary:active * {  color:  white !important; }
+
+.address { display: none; }
+.form-check { text-align: left; }
+
+@media screen and (max-width: 1350px){
+	.slide-cake { margin-top: 50px; }
+}
+
+@media screen and (max-width: 1100px){
+	.slide-cake { overflow: hidden; height: 100vh; min-height: 500px; }
+	.slide-cake img { position: absolute; bottom: 0px; top: unset; height: 100%; width: auto !important; max-width: unset; right: 0px; }
+}
+
+@media screen and (max-width: 991px){
+	header, header .glazze { height: 100px; }
+	header .logo { width: 150px; }
+	header nav li:not(.logo) { top: -30px; }
+	header .right-icons { top: 25px; }
+
+	.title-slide { font-size: 25px; }
+	.title-slide span { font-size: 35px; }
+
+	.cake-button { font-size: 25px; }
+
+	.slick-prev, .slick-next { display: none !important; }
+}
+
+@media screen and (max-width: 767px){
+	div#personalise-your-cake { text-align: center; }
+	.btn-group { height: 100%; }
+}
+
+@media screen and (max-width: 700px){
+	header, header .glazze { height: 60px; }
+	header .trigger-menu { display: initial; }
+	header .logo { width: 100px; display: none; }
+	header .logo.logo-mobile, header .logo.logo-mobile img { display: initial; }
+	header .logo.logo-mobile { margin-left: 15px; }
+	header ul { margin: unset; padding: 0px 20px; width: 100%; }
+	header nav li:not(.logo) { top: -10px; font-size: 15px; }
+	header .right-icons { top: 6px; right: 10px; }
+	header nav { display:none; background-image: url(/assets/img/bck-cake-things.png); padding-top: 120px; position: absolute; top: 50%; width: 100%; height: 100vh; background-color: rgb(229 231 244); z-index: 8; }
+	header nav li { display: block; text-align: center; }
+	header nav li a { color: #5f56a5 !important; font-weight: 800; font-size: 23px; }
+	header nav ul { position: absolute; top: 50%; }
+}
+
+@media screen and (max-width: 660px){
+	.slide-text { width: 100%; padding: 0px 50px; text-align: center; }
+	.slide-cake { margin-top: 0px; }
+	.slide-text .cake-button { margin-left: auto; margin-right: auto; }
+
+	#personalise-your-cake { padding-top: 35px; }
+}
+
