@@ -1,0 +1,29 @@
+header { position: fixed; z-index: 9; width: 100%; top: 0px; left: 0px; -webkit-backdrop-filter: saturate(180%) blur(2px); backdrop-filter: saturate(180%) blur(2px); background-color: rgba(255, 255, 255, 0.9); }
+header nav { display: flex; align-items: center; padding: 28px 8%; }
+.logo-website { width: 20%; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 28px; }
+.logo-website a { text-decoration: none; color: #2747c5; }
+header nav .links { width: 80%; }
+header nav .links ul { padding: 0px 0px 0px 30px; list-style: none; text-align: center; text-align: right; }
+header nav .links ul li { font-family: 'Poppins', sans-serif; display: inline-block; padding: 0px 30px; font-weight: 500; font-size: 19px; }
+header nav .links ul li a { color: #6e7c94; text-decoration: none; }
+header nav .links ul li:last-child { padding-right: 0px; }
+header .trigger-menu { display: none; }
+
+@media screen and (max-width: 1500px){
+	header nav .links ul li { font-size: 17px; padding: 0px 20px; }
+}
+
+@media screen and (max-width: 1100px){
+	header nav .links ul li { padding: 0px 11px; }
+	header nav { padding-top: unset; padding-bottom: unset; }
+}
+
+@media screen and (max-width: 991px){
+	header nav { display: table; width: 100%; padding: 0px; }
+	header .trigger-menu { display: block; float: right; padding: 20px; }
+	.logo-website { float: left; padding: 15px 20px; }
+	header nav .links { width: 100%; height: 0; clear: both; overflow: hidden; -webkit-transition: 0.5s all; transition: 0.5s all; }
+	header nav .links.active { height: 100vh; }
+	header nav .links ul li { display: table; margin: 0 auto; padding: 12px; }
+	header nav .links ul { padding: 0px; text-align: center; }
+}

@@ -1,0 +1,175 @@
+.fight, .fight form { position: relative; }
+.fight .title { padding-top: 240px; font-size: 60px; margin-bottom: 35px; }
+.fight img { width: 100%; }
+.fight .content { margin: 0 auto; display: table; }
+.fight .content p { max-width: 400px; line-height: 37px; }
+.fight ul.icons { padding: 0px; list-style: none; color: #2f4c7c; font-size: 16px; margin-top: 50px; }
+.fight ul.icons li { display: inline-block; padding-right: 50px; }
+.fight .content { position: relative; }
+.fight [class*="col-"]:nth-child(1) .content:before { content: ""; width: 100%; height: 100%; background-image: url(/assets/img/triangle-up.png); position: absolute; left: -135px; top: 145px; background-repeat: no-repeat; background-position: 6% top; }
+.fight [class*="col-"]:nth-child(1) { background-image: url(/assets/img/triangle-right.png); background-repeat: no-repeat; background-position: right 515px; background-size: 18%; }
+
+.schedule-vaccinations { position: absolute; top: 0px; margin-top: 150px; width: 220%; }
+.schedule { position: relative; display: flex; justify-content: space-between; align-items: center; padding: 30px; }
+.schedule:before { content: ""; -webkit-box-shadow: -24px 14px 35px -2px #dce8f9; box-shadow: -24px 14px 35px -2px #dce8f9; width: 64.5%; position: absolute; bottom: 0px; height: 105%; background: white; z-index: -1; }
+.schedule:after { content: ""; position: absolute; top: 0px; left:0px; width: 100%; height: 100%; background: white; -webkit-backdrop-filter: saturate(180%) blur(2px); backdrop-filter: saturate(180%) blur(2px); background-color: rgba(255, 255, 255, 0.9); border: 2px solid white; border-radius: 10px; }
+.schedule div { position: relative; z-index: 2; width: calc((100% - 180px) / 3); }
+.schedule div:last-child { width: 180px; }
+.schedule .button { margin-right: unset; width: 100%; margin-left: auto; }
+
+.vaccines { justify-content: space-between; align-items: center; max-width: 85%; margin: 80px auto 0px; }
+img.logo-astra { margin-top: -25px;  overflow: hidden; }
+.why { background-image: url(/assets/img/triangle-1.jpg); background-size: auto 250px; background-repeat: no-repeat; background-position: right top; justify-content: center; padding-top: 80px; padding-bottom: 50px; }
+.why .content p { max-width: 550px; line-height: 37px; }
+.why .item p:not(.simple-title) { font-size: 15px; line-height: inherit; }
+.why .item .badge { -webkit-box-shadow: unset; box-shadow: unset; }
+.why .item:hover .badge, .why .item.active .badge { -webkit-box-shadow: 0px 25px 50px 0px #cad2f1; box-shadow: 0px 25px 50px 0px #cad2f1; }
+
+.item .content { cursor: default; background: white; border: 3px solid rgba(246, 246, 254, 0.4); height: 100%; padding: 30px 30px 0px; border-radius: 10px; }
+.item .content:hover, .item.active .content { border-color: white; -webkit-box-shadow: 10px 29px 32px #e6edfb; box-shadow: 10px 29px 32px #e6edfb; }
+
+
+.benefits { display: flex; justify-content: space-around; }
+.benefits .item { flex: 1; padding: 15px; }
+.benefits { margin-left: -15px; margin-right: -15px; }
+
+.preparations { align-items: end; background-image: url(/assets/img/triangle-2.jpg); background-size: auto 250px; background-repeat: no-repeat; background-position: left top;  margin-bottom: 80px; }
+.preparations [class*="col-"]:nth-child(2) { /*padding: 0px 100px;*/ }
+.preparations p.custom-width { width: 540px; max-width: 100%; }
+.preparations .title { padding-top: 70px; }
+.preparations img, .emergency img { width: 100%; }
+.preparations .content, .emergency .content { margin: 0 auto; display: table; max-width: 70%; width: 70%; }
+.preparations [class*="col-"]:nth-child(1) { padding-top: 200px; }
+.preparations .simple-title { font-size: 20px; }
+
+.toggle { border: 3px solid rgba(246, 246, 254, 0.4); background: white; padding: 20px; position: relative; margin-bottom: 20px; }
+.toggle .badge { -webkit-box-shadow: unset; box-shadow: unset; }
+.text { display: none; padding: 0px 55px; }
+.toggle .arrow { color: #eff3ff; position: absolute; top: 28px; right: 20px; font-size: 20px; }
+.toggle .arrow i { position: relative; z-index: 1; }
+.toggle .arrow:before { content: ""; background-color: #3050ce; width: 90%; height: 50%; left: 5%; top: 26%; position: absolute; z-index: 0; }
+.toggle.active .arrow { -webkit-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(-180deg); transform: rotate(-180deg); }
+.toggle.active .arrow:before { background-color: #6d7b93; }
+.toggle.active .badge { box-shadow: 0px 15px 9px -9px #98a7e3; -webkit-box-shadow: 0px 15px 9px -9px #98a7e3; -moz-box-shadow: 0px 15px 9px -9px #98a7e3; }
+.toggle.active .text { display: inherit; }
+.toggle.active { border-color: white; -webkit-box-shadow: 10px 29px 32px rgba(230, 237, 251, 0.4); box-shadow: 10px 29px 32px rgba(230, 237, 251, 0.4); }
+
+.emergency { margin-bottom: 150px; align-items: end; background-image: url(/assets/img/triangle-1.jpg); background-size: auto 250px; background-repeat: no-repeat; background-position: right top; }
+.emergency [class*="col-"]:nth-child(1) { /*padding: 0% 7.5%;*/ }
+.emergency .title { padding-top: 70px; }
+.emergency p.custom-width { width: 540px; max-width: 100%; }
+.emergency .items { display: flex; flex-wrap: wrap; }
+.emergency .items .item { flex: 0 0 50%; margin-bottom: 70px; }
+.emergency .items .item .content { border: 4px solid rgba(246, 246, 254, 0.6); }
+.emergency .simple-title { display: flex; }
+.emergency .simple-title div span { color: #707e95 !important; font-size: 15px; display: block; margin-top: 12px; }
+.emergency .badge { width: 55px !important; height: 55px; font-size: 25px; line-height: 57px; }
+.emergency .badge { box-shadow: unset; -webkit-box-shadow: unset; -moz-box-shadow: unset; }
+.emergency .items .item .button { text-align: center; text-decoration: none; margin-top: 50px; color: #2747c5 !important; background: #f1f5ff; }
+.emergency .items .item:hover .button, .emergency .items .item.active .button { color: #ffffff !important; background: linear-gradient(60deg,#3757d5,#2646c4); -webkit-box-shadow: 0px 28px 16px -17px #cad2f1; box-shadow: 0px 28px 16px -17px #cad2f1; }
+.emergency .items .item .content:hover, .emergency .items .item.active .content { -webkit-box-shadow: 10px 29px 32px rgb(241 245 252 / 50%); box-shadow: 10px 29px 32px rgb(241 245 252 / 50%); }
+.emergency .item:hover .badge, .emergency .item.active .badge { -webkit-box-shadow: 0px 25px 50px 0px #cad2f1; box-shadow: 0px 25px 50px 0px #cad2f1; }
+.emergency .items { margin-top: 150px; }
+
+@media screen and (min-width: 1920px){
+	body { max-width: 1920px; margin-left: auto !important; margin-right: auto !important; }
+	header { max-width: 1920px; left: 50%; -webkit-transform: translateX(-50%); }
+}
+
+@media screen and (max-width: 1500px){
+	.fight .title { font-size: 50px; }
+	.fight [class*="col-"]:nth-child(1) .content:before { background-size: 195px; left: -22%; }
+	.fight .content p { line-height: 34px; }
+
+	.why { background-size: 50%; background-position-y: calc(100px - 15%); }
+	.why .content p { font-size: 21px; }
+}
+
+@media screen and (max-width: 1400px){
+	.fight .title { padding-top: 200px; }
+	.schedule-vaccinations { margin-top: 100px; }
+}
+
+@media screen and (max-width: 1300px){
+	.schedule-vaccinations { margin-top: 30px; }
+	.fight [class*="col-"]:nth-child(2) { overflow: hidden; }
+	.fight [class*="col-"]:nth-child(2) img { width: 110%; max-width: unset; }
+
+	.vaccines img { height: 60px; }
+
+	.emergency .content { margin: unset; padding-left: 10%; }
+}
+
+@media screen and (max-width: 1200px){
+	.fight .title { padding-top: 110px; }
+	.fight [class*="col-"]:nth-child(1) .content:before { display: none; }
+	.fight .content { padding: 0px 10%; }
+	.fight ul.icons li { padding-right: 20px; }
+	.fight ul.icons li:last-child { padding-right: 0px; }
+
+	.vaccines img { height: 45px; }
+
+	.why { background-position-y: calc(100px - 5%); }
+	.benefits { flex-wrap: wrap; justify-content: unset; }
+	.benefits .item { flex: 0 0 calc(50% - 30px); }
+	.benefits .item { margin-bottom: 50px; }
+}
+
+@media screen and (max-width: 991px){
+	.fight .col-50 { flex: 0 0 100%; }
+	.fight [class*="col-"]:nth-child(2) { display: none; }
+	.fight .principal-text { text-align: center; margin: 0 auto; display: table; }
+	.fight ul.icons { text-align: center; }
+	.fight [class*="col-"]:nth-child(1) { background-position: right 20%; }
+
+	.schedule-vaccinations .tlt { text-align: center; }
+	.schedule-vaccinations { max-width: 100%; margin-top: 80px; }
+	.schedule-vaccinations { position: relative; }
+	.schedule { display: flex; flex-wrap: wrap; margin-top: 30px; }
+	.schedule div.col { flex: 0 0 50%; margin: 15px 0px; }
+	.schedule:before { height: 100%; }
+
+	.vaccines { flex-wrap: wrap; }
+	.vaccines div { flex: 0 0 50%; text-align: center; margin: 10px 0px; }
+
+	.preparations [class*="col-"], .emergency [class*="col-"] { flex: 0 0 100%; }
+	.preparations, .emergency { flex-wrap: wrap; }
+
+	.emergency [class*="col-"]:nth-child(2) { order: -1; }
+	.emergency { background-position: right bottom; }
+	.emergency .items { margin-top: 80px; }
+}
+
+
+@media screen and (max-width: 750px){
+	.schedule div.col { flex: 0 0 100%; text-align: center; width: 100%; }
+	.schedule div.col input { display: table; margin: 12px auto; text-align: center; max-width: 100%; width: 100%; }
+	.fight .content p { max-width: 100%; }
+}
+
+@media screen and (max-width: 700px){
+	.benefits .item { flex: 0 0 calc(100% - 30px); }
+
+	.preparations p.custom-width { width: 100%; }
+
+	.emergency p.custom-width { width: 100%; }
+	.emergency .items .item { flex: 0 0 100%; }
+	.emergency .items .item .content { width: 100%; max-width: 90%; }
+}
+
+@media screen and (max-width: 600px){
+	.fight .title { font-size: 35px; }
+
+	.vaccines div { flex: 0 0 100%; }
+
+	.preparations .simple-title { padding-right: 27px; }
+	.preparations .badge { margin-bottom: 20px; float: left; }
+	.preparations .toggle.active .text { padding: 28px 15px 0px; }
+	.preparations, .emergency { overflow: hidden;}
+	.preparations .content, .emergency .content { margin: 0 auto; width: 80%; max-width: 80%;}
+	
+	.emergency .items .item .content { max-width: unset; }
+	.emergency [class*="col-"]> .content { padding-left: 0px; }
+	.emergency .items .item .content { max-width: 70%; }
+	.emergency span, .emergency a { text-decoration: none; }
+}
