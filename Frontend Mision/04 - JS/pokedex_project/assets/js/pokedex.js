@@ -1,4 +1,3 @@
-var allWeakness = "";
 const fetchPokemon = () => {
 	const pokeName = document.getElementById("pokeName");
 	let pokeInput = pokeName.value.toLowerCase();
@@ -15,7 +14,6 @@ const fetchPokemon = () => {
 	}).then((data) => {
 		if(data != undefined){
 			//console.log(data);
-			allWeakness = "";
 			pokeImage(data.sprites.front_default);
 			pokeType(data.types);
 			pokeAbilities(data.abilities);
@@ -109,6 +107,7 @@ const refreshAbout = () => {
 	document.getElementById("pokeAbilities").innerHTML = "?";
 	document.getElementById("pokeHeight").innerHTML = "?";
 	document.getElementById("pokeWeight").innerHTML = "?";
+	document.getElementById("pokeWeakness").innerHTML = "?";
 }
 
 
