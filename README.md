@@ -21,3 +21,4 @@ Contiene:
 * [02 - HTML](Frontend%20Mision/02%20-%20HTML) - Proyecto Pastelería
 * [03 - CSS](Frontend%20Mision/03%20-%20CSS) - Proyecto Vacunación
 * [04 - JS](Frontend%20Mision/04%20-%20JS) - Pokedex
+* [05 - VUEX](Frontend%20Mision/05%20-%20VUEX) - Make your cake
